@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to R",
+    "section": "",
+    "text": "Course content\nThis website contains all the material for the lab sessions of the Quantitative Methods class for the Fall 2025 semester in the research master’s program in Political Science at Sciences Po Paris. The class complements Jan Rovny’s lecture on Quantitative Methods I.\nThis course is an introduction to programming with R and RStudio, specifically designed for political scientists. The goal is to familiarize students with the R programming language and its applications in data analysis, emphasizing its relevance to political science research. In this course, you will learn how to manipulate quantitative data, compute descriptive statistics, create data visualizations, and build statistical models. You will apply the main concepts learned in the Quantitative Methods class.\nThis class does not require any prior programming or statistical experience and is designed for complete beginners. It provides you with the basics, resources, and motivation to learn more on your own, continue in the next semester, and apply quantitative methods in your research.",
+    "crumbs": [
+      "Course content"
+    ]
+  },
+  {
+    "objectID": "index.html#outline-of-the-course",
+    "href": "index.html#outline-of-the-course",
+    "title": "Introduction to R",
+    "section": "Outline of the course",
+    "text": "Outline of the course\n\n\n\nSession\nDescription\nDate\n\n\n\n\nSession 1\nGetting started with R and Rstudio\n\n\n\nSession 2\nManipulating and describing data\n\n\n\nSession 3\nVisualizing data\n\n\n\nSession 4\nTesting relationships\n\n\n\nSession 5\nCorrelation and simple linear regression\n\n\n\nSession 6\nMultivariate analysis",
+    "crumbs": [
+      "Course content"
+    ]
+  }
+]
