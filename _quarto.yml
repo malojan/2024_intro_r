@@ -1,0 +1,57 @@
+project:
+  type: book
+  output-dir: docs
+  # execute-dir: file
+
+book:
+  title: "Introduction to R"
+  subtitle: "Quantitative Methods I"
+  author: "Malo Jan"
+  date: last-modified
+  # repo-url: https://github.com/malojan/intro_r
+  search: true
+  sidebar:
+    collapse-level: 3
+    pinned: true
+  chapters:
+    - index.qmd
+    - setup.qmd
+    - part: "Getting started with R and Rstudio"
+      chapters:
+        - session01/workflow.qmd
+        - session01/basics.qmd
+        - session01/help.qmd
+    - part: "Manipulating and describing data"
+    - part: "Visualizing data"
+    - part: "Testing relationships"
+    - part: "Regression analysis"
+    - part: "Multivariate analysis"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+    - cosmo
+    - style.css
+    callout-appearance: simple
+    code-block-background: true
+    code-block-border-left: "#31BAE9"
+    highlight-style: pygments
+    toc: true
+    toc-location: right
+    code-copy: true
+    code-link: true
+    citations-hover: true
+    footnotes-hover: true
+    embed-resources: true
+    self-contained-math: true
+    grid: 
+      sidebar-width: 300px
+      margin-width: 300px
+  pdf:
+    documentclass: scrreprt
+
+
+editor: visual
+

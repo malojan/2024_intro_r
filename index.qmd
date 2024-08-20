@@ -1,0 +1,68 @@
+# Course overview {.unnumbered}
+
+This website contains all the material for the lab sessions of the Quantitative Methods class for the Fall 2025 semester in the [research master's program in Political Science](https://www.sciencespo.fr/ecole-recherche/fr/formations/masters/master-science-politique/) at Sciences Po Paris. The class complements Jan Rovny's lecture on [Quantitative Methods I](https://www.rovny.org/methods-ed).
+
+The course provides you with the fundamentals, resources, and motivation to further your learning independently, prepare for the next semester [Luis Sattelmayer's R sessions](https://luissattelmayer.github.io/quanti-2024/), and apply quantitative methods in your future research.
+
+## Course structure
+
+| Session   | Description                              | Date         |
+|-----------|------------------------------------------|--------------|
+| Session 1 | Getting started with R and Rstudio       | 05/09, 12/09 |
+| Session 2 | Manipulating and describing data         | 19/09, 26/09 |
+| Session 3 | Visualizing data                         | 03/10, 10/10 |
+| Session 4 | Testing relationships                    | 17/10, 24/10 |
+| Session 5 | Correlation and simple linear regression | 07/11, 14/11 |
+| Session 6 | Multivariate analysis                    | 21/11, 28/11 |
+
+## Course validation
+
+Learning programming is fundamentally about practice. It involves trying, encountering challenges, and solving them. The course assessment is structured around a series of exercises that will constitute 30% of your final grade in the Quantitative Methods class. You will be required to apply the code and concepts covered in class to new problems and datasets.
+
+Throughout the semester, you will complete four individual exercises between sessions. For each exercise, you will perform a series of operations in R and submit your work. Each exercise will be graded on a scale from 0 to 5 points.
+
+Second, at the end of the semester, you will complete a bigger group exercise with one other person. This exercise will involve integrating content from throughout the semester and will be completed within a two-week timeframe. It will be graded on a scale from 0 to 20 points.
+
+| Assignments | Description | Due date                  | Weight |
+|-------------|-------------|---------------------------|--------|
+| Exercise 1  | Individual  | Before session 2          | 5%     |
+| Exercise 2  | Individual  | Before session 3          | 5%     |
+| Exercise 3  | Individual  | Before session 4          | 5%     |
+| Exercise 4  | Individual  | before session 5          | 5%     |
+| Exercise 5  | Group       | Two weeks after session 6 | 10%    |
+
+## Requirements
+
+This class does not require any prior programming or statistical experience and is designed for complete beginners. However, it does require some basic knowledge of how to use a computer. You should be able to navigate your computer's file system, create and move folders, and download and save files. Specifically, each class's content will be provided as a zip file, which you will need to download, unzip, and move to a folder on your computer. If you are not familiar with these operations, please refer to this [tutorial](https://www.wikihow.com/Unzip-a-File).
+
+This class requires you to bring a laptop to each session with R and RStudio installed by the start of the course. The 'Setting up R and RStudio' page on this website provides a step-by-step guide for installation. If you encounter any issues during the setup or are unable to bring a laptop to class, please let me know.
+
+## Course material
+
+Before each session, you will be provided with the class material, which you should download to your laptop to follow along. Additionally, all class activities and resources will be available on this website for future reference. You will also need to submit your exercises on the course's Moodle page.
+
+## Help
+
+If you have any questions regarding the course, need help, or are looking for additional resources, please do not hesitate to contact me via [email](mailto:malo.jan@sciencespo.fr). I will be happy to assist you and will try to reply as quickly as possible.
+
+## Ressources
+
+This course does not have a required textbook or mandatory readings. However, if you wish to deepen your understanding of the content covered, I recommend familiarizing yourself with the following resources:
+
+-   [R for Data Science](https://r4ds.hadley.nz/), this is THE R classic by Hadley Wickham, you should definitely take a look to better understand what we cover in this course.
+-   [Telling stories with data](https://tellingstorieswithdata.com/) by Rohan Alexander : one of my favorite book on data science with R. (a bit more advanced)
+-   [Computational analysis of communication](http://cssbook.net/) by van Atteveldt et al.
+-   [Computational Thinking for Social Scientists](https://jaeyk.github.io/comp_thinking_social_science/) by Jae Yeon Kim
+-   [Introduction to data science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) by Rafael Irizarry
+
+There are also many other introductions to R available online, each offering different approaches to teaching the same concepts. I recommend the following:
+
+-   [Introduction to R](https://bookdown.org/f_lennert/introduction-to-r/), by Felix Lennert
+
+-   [Introduction to R](https://intro2r.com/) by Alex Douglas et al.
+
+If you want ressources in french, these are the two most comprehensive introduction you will find :
+
+-   [Introduction à R et au tidyverse](https://juba.github.io/tidyverse/) by Julien Barnier
+
+-   [Guide pour l'analyse de données d'enquêtes avec R](https://larmarange.github.io/guide-R/) by Joseph Larmarange
