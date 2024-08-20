@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Malo Jan">
-<meta name="dcterms.date" content="2024-07-06">
+<meta name="dcterms.date" content="2024-08-20">
 
 <title>Introduction to R</title>
 <style>
@@ -1658,6 +1658,7 @@ async function fuseSearch(query, fuse, fuseOptions) {
 }
 </script>
 <meta name="quarto:offset" content="./">
+<link href="./setup.html" rel="next">
 <script>const sectionChanged = new CustomEvent("quarto-sectionChanged", {
   detail: {},
   bubbles: true,
@@ -4707,7 +4708,7 @@ vertical-align: -.125em;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course content</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course overview</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -4723,9 +4724,6 @@ vertical-align: -.125em;
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Introduction to R</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/malojan/intro_r" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -4738,32 +4736,63 @@ vertical-align: -.125em;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Course content</span></a>
+ <span class="menu-text">Course overview</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Setting up R and Rstudio</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Session 1 : Getting started</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Getting started with R and Rstudio</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./session01/workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Rstudio, scripts, quarto</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./session01/basics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">R basics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./session01/help.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting help and dealing with errors</span></span></a>
+  </div>
+</li>
+      </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Session 2 : Manipulating data</span></span>
+ <span class="menu-text">Manipulating and describing data</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Session 3 : Data visualization</span></span>
+ <span class="menu-text">Visualizing data</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Session 4 : Testing relationships</span></span>
+ <span class="menu-text">Testing relationships</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Session 5 : Correlation and regression</span></span>
+ <span class="menu-text">Regression analysis</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Session 6 : Multivariate analysis</span></span>
+ <span class="menu-text">Multivariate analysis</span></span>
   </li>
     </ul>
     </div>
@@ -4775,12 +4804,15 @@ vertical-align: -.125em;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#course-content" id="toc-course-content" class="nav-link active" data-scroll-target="#course-content">Course content</a>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course overview</a>
   <ul class="collapse">
-  <li><a href="#outline-of-the-course" id="toc-outline-of-the-course" class="nav-link" data-scroll-target="#outline-of-the-course">Outline of the course</a></li>
-  </ul></li>
+  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course structure</a></li>
   <li><a href="#course-validation" id="toc-course-validation" class="nav-link" data-scroll-target="#course-validation">Course validation</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
+  <li><a href="#course-material" id="toc-course-material" class="nav-link" data-scroll-target="#course-material">Course material</a></li>
+  <li><a href="#help" id="toc-help" class="nav-link" data-scroll-target="#help">Help</a></li>
   <li><a href="#ressources" id="toc-ressources" class="nav-link" data-scroll-target="#ressources">Ressources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4807,7 +4839,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 6, 2024</p>
+      <p class="date">August 20, 2024</p>
     </div>
   </div>
   
@@ -4819,13 +4851,12 @@ vertical-align: -.125em;
 </header>
 
 
-<section id="course-content" class="level1 unnumbered">
-<h1 class="unnumbered">Course content</h1>
+<section id="course-overview" class="level1 unnumbered">
+<h1 class="unnumbered">Course overview</h1>
 <p>This website contains all the material for the lab sessions of the Quantitative Methods class for the Fall 2025 semester in the <a href="https://www.sciencespo.fr/ecole-recherche/fr/formations/masters/master-science-politique/">research master’s program in Political Science</a> at Sciences Po Paris. The class complements Jan Rovny’s lecture on <a href="https://www.rovny.org/methods-ed">Quantitative Methods I</a>.</p>
-<p>This course is an introduction to programming with R and RStudio, specifically designed for political scientists. The goal is to familiarize students with the R programming language and its applications in data analysis, emphasizing its relevance to political science research. In this course, you will learn how to manipulate quantitative data, compute descriptive statistics, create data visualizations, and build statistical models. You will apply the main concepts learned in the Quantitative Methods class.</p>
-<p>This class does not require any prior programming or statistical experience and is designed for complete beginners. It provides you with the basics, resources, and motivation to learn more on your own, continue in the next semester, and apply quantitative methods in your research.</p>
-<section id="outline-of-the-course" class="level2">
-<h2 class="anchored" data-anchor-id="outline-of-the-course">Outline of the course</h2>
+<p>The course provides you with the fundamentals, resources, and motivation to further your learning independently, prepare for the next semester <a href="https://luissattelmayer.github.io/quanti-2024/">Luis Sattelmayer’s R sessions</a>, and apply quantitative methods in your future research.</p>
+<section id="course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure">Course structure</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -4838,48 +4869,120 @@ vertical-align: -.125em;
 <tr class="odd">
 <td>Session 1</td>
 <td>Getting started with R and Rstudio</td>
-<td></td>
+<td>05/09, 12/09</td>
 </tr>
 <tr class="even">
 <td>Session 2</td>
 <td>Manipulating and describing data</td>
-<td></td>
+<td>19/09, 26/09</td>
 </tr>
 <tr class="odd">
 <td>Session 3</td>
 <td>Visualizing data</td>
-<td></td>
+<td>03/10, 10/10</td>
 </tr>
 <tr class="even">
 <td>Session 4</td>
 <td>Testing relationships</td>
-<td></td>
+<td>17/10, 24/10</td>
 </tr>
 <tr class="odd">
 <td>Session 5</td>
 <td>Correlation and simple linear regression</td>
-<td></td>
+<td>07/11, 14/11</td>
 </tr>
 <tr class="even">
 <td>Session 6</td>
 <td>Multivariate analysis</td>
-<td></td>
+<td>21/11, 28/11</td>
 </tr>
 </tbody>
 </table>
 </section>
+<section id="course-validation" class="level2">
+<h2 class="anchored" data-anchor-id="course-validation">Course validation</h2>
+<p>Learning programming is fundamentally about practice. It involves trying, encountering challenges, and solving them. The course assessment is structured around a series of exercises that will constitute 30% of your final grade in the Quantitative Methods class. You will be required to apply the code and concepts covered in class to new problems and datasets.</p>
+<p>Throughout the semester, you will complete four individual exercises between sessions. For each exercise, you will perform a series of operations in R and submit your work. Each exercise will be graded on a scale from 0 to 5 points.</p>
+<p>Second, at the end of the semester, you will complete a bigger group exercise with one other person. This exercise will involve integrating content from throughout the semester and will be completed within a two-week timeframe. It will be graded on a scale from 0 to 20 points.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Assignments</th>
+<th>Description</th>
+<th>Due date</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exercise 1</td>
+<td>Individual</td>
+<td>Before session 2</td>
+<td>5%</td>
+</tr>
+<tr class="even">
+<td>Exercise 2</td>
+<td>Individual</td>
+<td>Before session 3</td>
+<td>5%</td>
+</tr>
+<tr class="odd">
+<td>Exercise 3</td>
+<td>Individual</td>
+<td>Before session 4</td>
+<td>5%</td>
+</tr>
+<tr class="even">
+<td>Exercise 4</td>
+<td>Individual</td>
+<td>before session 5</td>
+<td>5%</td>
+</tr>
+<tr class="odd">
+<td>Exercise 5</td>
+<td>Group</td>
+<td>Two weeks after session 6</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="course-validation" class="level1">
-<h1>Course validation</h1>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<p>This class does not require any prior programming or statistical experience and is designed for complete beginners. However, it does require some basic knowledge of how to use a computer. You should be able to navigate your computer’s file system, create and move folders, and download and save files. Specifically, each class’s content will be provided as a zip file, which you will need to download, unzip, and move to a folder on your computer. If you are not familiar with these operations, please refer to this <a href="https://www.wikihow.com/Unzip-a-File">tutorial</a>.</p>
+<p>This class requires you to bring a laptop to each session with R and RStudio installed by the start of the course. The ‘Setting up R and RStudio’ page on this website provides a step-by-step guide for installation. If you encounter any issues during the setup or are unable to bring a laptop to class, please let me know.</p>
+</section>
+<section id="course-material" class="level2">
+<h2 class="anchored" data-anchor-id="course-material">Course material</h2>
+<p>Before each session, you will be provided with the class material, which you should download to your laptop to follow along. Additionally, all class activities and resources will be available on this website for future reference. You will also need to submit your exercises on the course’s Moodle page.</p>
+</section>
+<section id="help" class="level2">
+<h2 class="anchored" data-anchor-id="help">Help</h2>
+<p>If you have any questions regarding the course, need help, or are looking for additional resources, please do not hesitate to contact me via <a href="mailto:malo.jan@sciencespo.fr">email</a>. I will be happy to assist you and will try to reply as quickly as possible.</p>
+</section>
+<section id="ressources" class="level2">
+<h2 class="anchored" data-anchor-id="ressources">Ressources</h2>
+<p>This course does not have a required textbook or mandatory readings. However, if you wish to deepen your understanding of the content covered, I recommend familiarizing yourself with the following resources:</p>
 <ul>
-<li>5 small individual exercices</li>
-<li>1 group exercice</li>
+<li><a href="https://r4ds.hadley.nz/">R for Data Science</a>, this is THE R classic by Hadley Wickham, you should definitely take a look to better understand what we cover in this course.</li>
+<li><a href="https://tellingstorieswithdata.com/">Telling stories with data</a> by Rohan Alexander : one of my favorite book on data science with R. (a bit more advanced)</li>
+<li><a href="http://cssbook.net/">Computational analysis of communication</a> by van Atteveldt et al.</li>
+<li><a href="https://jaeyk.github.io/comp_thinking_social_science/">Computational Thinking for Social Scientists</a> by Jae Yeon Kim</li>
+<li><a href="https://rafalab.dfci.harvard.edu/dsbook-part-1/">Introduction to data science</a> by Rafael Irizarry</li>
 </ul>
+<p>There are also many other introductions to R available online, each offering different approaches to teaching the same concepts. I recommend the following:</p>
+<ul>
+<li><p><a href="https://bookdown.org/f_lennert/introduction-to-r/">Introduction to R</a>, by Felix Lennert</p></li>
+<li><p><a href="https://intro2r.com/">Introduction to R</a> by Alex Douglas et al.</p></li>
+</ul>
+<p>If you want ressources in french, these are the two most comprehensive introduction you will find :</p>
+<ul>
+<li><p><a href="https://juba.github.io/tidyverse/">Introduction à R et au tidyverse</a> by Julien Barnier</p></li>
+<li><p><a href="https://larmarange.github.io/guide-R/">Guide pour l’analyse de données d’enquêtes avec R</a> by Joseph Larmarange</p></li>
+</ul>
+
+
 </section>
-<section id="ressources" class="level1">
-<h1>Ressources</h1>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -5303,6 +5406,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./setup.html" class="pagination-link" aria-label="Setting up R and Rstudio">
+        <span class="nav-page-text">Setting up R and Rstudio</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
